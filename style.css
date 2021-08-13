@@ -1,0 +1,228 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+ .hero h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+}
+
+.spann {
+    padding: 3px 12px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 12px;
+}
+
+.pynix {
+    color: rgb(0, 102, 255);
+    font-weight: 1000;
+}
+
+.gotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 132, 255);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-radius: 18px;
+    transition: .4s linear;
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.363);
+}
+
+.gotop:hover {
+    border-radius: 44px;
+    cursor: pointer;
+    transition: .4s linear;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.hero .button {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 11.5px 17px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 2000;
+    box-shadow: 0 0 13px rgb(0, 132, 255);
+}
+
+.hero img {
+    width: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+}
+
+
+.navbar {
+    background: #f1f1f149;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(49px);
+}
+
+.navbar-brand {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 102, 255);
+}
+
+.mengapa {
+    background-color: rgb(51, 139, 255);
+    height: 560px;
+    color: white;
+}
+
+.mengapa-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+.testimoni img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimoni h2 {
+    font-size: 46px;
+}
+
+.pp {
+    margin-top: -14px;
+}
+
+.testimoni h4 {
+    margin-top: 10px;
+}
+
+footer{
+    background: #f1f1f1;
+    padding: 90px 0;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #5c87fc;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #5c87fc;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #5c87fc;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
+    }
+    .right-col{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  
+    .left-col{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }
+
+@media screen and (max-width: 590px) {
+    .uang , .uangp , .heart , .lock , .lockp {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
